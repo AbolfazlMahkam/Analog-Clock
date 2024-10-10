@@ -21,12 +21,12 @@ const sc = document.querySelector('.sc');
 let prevSeconds = 0;
 
 function updateClock() {
-    const now = new Date();
+    const day = new Date();
 
-    const milliseconds = now.getMilliseconds();
-    const seconds = now.getSeconds() + milliseconds / 1000;
-    const minutes = now.getMinutes() + seconds / 60;
-    const hours = now.getHours() + minutes / 60;
+    const milliseconds = day.getMilliseconds();
+    const seconds = day.getSeconds() + milliseconds / 1000;
+    const minutes = day.getMinutes() + seconds / 60;
+    const hours = day.getHours() + minutes / 60;
 
     const secondDeg = (seconds / 60) * 360;
     const minuteDeg = (minutes / 60) * 360;
