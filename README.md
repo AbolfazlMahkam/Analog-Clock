@@ -11,5 +11,3 @@ At first, with the application of transitions, I noticed that with this movement
 After a lot of thinking and exploration, I managed to make the hands work as I wanted.
 
 In the JS file, the initial code is commented so you can see the difference between the ticking state and the smooth movement when writing the program.
-
-assets/script/script.js
