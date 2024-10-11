@@ -16,8 +16,7 @@ body{
     border-radius: 50%;
 } */
 .clock {
-    backdrop-filter: brightness(20%);
-    backdrop-filter: blur(10%);
+    backdrop-filter: brightness(80%) blur(7px);
     width: 600px;
     height: 600px;
     display: flex;
